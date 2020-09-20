@@ -2,14 +2,32 @@
 REquest ajaX client get and post for connecting to the API/Web Service Host
 
 ### Installing
+nodejs via npm
 ```bash
 npm install rex-requestajax
 ```
 
+html via vanilla js
+```bash
+clone/download
+
+add /mod/frontend/vanilla/rex.js to your html script 
+```
+
+
 ### How To Use
 #### 0. Require
+nodejs
 ```bash
 const rex = require('rex-requestajax');
+```
+html
+```bash
+//add in your html head tag
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> //need jquery for running rex.js
+<script src="./mod/frontend/vanilla/rex.js"></script>
+
+//see sample.html for implementation
 ```
 
 #### 1. Must define API/Web Service Host
