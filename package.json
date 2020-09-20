@@ -1,7 +1,7 @@
 {
   "name": "rex-requestajax",
-  "version": "0.0.1",
-  "description": "REquest ajaX client get and post",
+  "version": "0.0.3",
+  "description": "REquest ajaX client get and post for connecting to the API/Web Service Host",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,13 +29,17 @@
     "url": "https://github.com/KodeRestu/rex/issues"
   },
   "homepage": "https://github.com/KodeRestu/rex#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-plumber": "^1.2.1",
-    "jquery": "^3.5.1",
-    "jsdom": "^16.4.0"
+    "gulp-uglify": "^3.0.2"
   }
 }

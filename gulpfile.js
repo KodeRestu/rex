@@ -4,6 +4,7 @@ const { src, dest } = require('gulp');
 // Import Gulp plugins.
 const babel = require('gulp-babel');
 const plumber = require('gulp-plumber');
+const uglify = require('gulp-uglify');
 
 // Gulp 4 uses exported objects as its tasks. Here we only have a
 // single export that represents the default gulp task.
@@ -21,6 +22,8 @@ exports.default = function(done) {
         }]
       ]
     }))
+    // Minify the self-authored bundle
+    .pipe(uglify())
     // Save each component as a separate file in dist.
     .pipe(dest('./mod/frontend/vanilla'))
 };
