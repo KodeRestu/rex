@@ -4,7 +4,8 @@
   "description": "REquest ajaX client get and post",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,11 @@
   },
   "homepage": "https://github.com/KodeRestu/rex#readme",
   "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-plumber": "^1.2.1",
     "jquery": "^3.5.1",
     "jsdom": "^16.4.0"
   }

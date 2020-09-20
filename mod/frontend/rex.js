@@ -1,8 +1,4 @@
-const { JSDOM } = require( "jsdom" );
-const { window } = new JSDOM( "" );
-const $ = require( "jquery" )( window );
-
-module.exports = class rex{
+class rex{
     constructor(webservice){
         this.webservice = webservice;
         this.args;
@@ -40,7 +36,7 @@ module.exports = class rex{
         return this;
     }
 
-    get(){     
+    get(args){     
         args && this.setArgs(args);   
         this.request = $.get( 
             this.webservice
@@ -79,4 +75,7 @@ module.exports = class rex{
     }
 
 }
+
+
+//module.exports = rex;
 
