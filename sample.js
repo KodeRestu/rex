@@ -1,4 +1,5 @@
-const rex = require('./index.js');
+const rex = require('./index.js'); 
+//install to your nodejs app with "npm i rex-requestajax" then require('rex-requestajax');
 
 
 const request = new rex("https://randomuser.me/api/")

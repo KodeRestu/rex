@@ -4,7 +4,6 @@ class rex{
         this.args;
         this.request;
         this.context;
-        this.webhost;
 
         return this;
     }
@@ -75,7 +74,3 @@ class rex{
     }
 
 }
-
-
-//module.exports = rex;
-

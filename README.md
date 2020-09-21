@@ -12,6 +12,7 @@ html via vanilla js
 clone/download
 
 add /mod/frontend/vanilla/rex.js to your html script 
+or add vanilla/rex.js file to your lib web doc for use the script 
 ```
 
 
@@ -25,7 +26,7 @@ html
 ```bash
 //add in your html head tag
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> //need jquery for running rex.js
-<script src="./mod/frontend/vanilla/rex.js"></script>
+<script src="./mod/frontend/vanilla/rex.js"></script> //add vanilla/rex.js file to your lib web doc for use the script 
 
 //see sample.html for implementation
 ```

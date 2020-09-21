@@ -1,6 +1,6 @@
 {
   "name": "rex-requestajax",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "REquest ajaX client get and post for connecting to the API/Web Service Host",
   "main": "index.js",
   "scripts": {
